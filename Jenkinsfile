@@ -1,6 +1,9 @@
 pipeline {
     agent any
-
+    
+    environment{
+	    PATH = "/opt/homebrew/bin:$PATH"
+	}
 
     stages {
         stage('git pull') {
