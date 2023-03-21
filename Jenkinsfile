@@ -6,7 +6,8 @@ pipeline {
         stage('git pull') {
             steps {
                 git branch: 'main',
-                    url: 'git@github.com:anish-9999/software-prod-miniproj.git'
+                credentialsId: 'f0e572a0-ac30-4fa3-8897-33219df15a61',
+                    url: 'https://github.com/anish-9999/software-prod-miniproj.git'
             }
         }
 
