@@ -29,6 +29,7 @@ pipeline {
 
         stage ('Push Docker Image to DockerHub') {
             steps{
+		sh 'docker login -u anish9999 -p dckr_pat_79tvhUvN5wcUiL-Xzw7dCjclBRA'
                 sh 'docker push anish-9999/software-prod-miniproj'
             }
 
