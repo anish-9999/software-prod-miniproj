@@ -1,0 +1,11 @@
+- name: Pull docker image of Calculator
+  hosts: all
+  environment:
+    PATH: "{{ ansible_env.PATH }}:/usr/local/bin"
+  tasks:
+    - name: pull docker image
+      shell:
+        docker pull anish9999/calc_img
+    - name: running container
+      shell:
+        docker run -it -d anish9999/calc_img
