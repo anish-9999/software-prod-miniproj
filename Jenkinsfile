@@ -20,23 +20,19 @@ pipeline {
             }
         }
 
- 	stage('Docker Build Image')
-        {
-            steps{
-                script{
-                    imageName = docker.build "anish9999/calc_img"
-                }
+        stage ('Build Docker Image') {
+            steps {
+                sh 'docker build -t anish-9999/software-prod-miniproj .'
+
             }
         }
-        stage('Push Docker Image')
-        {
+
+        stage ('Push Docker Image to DockerHub') {
             steps{
-                script{
-                    docker.withRegistry("", 'docker_jenkins' ){
-                        imageName.push()
-                    }
-                }
+		sh 'docker login -u anish9999 -p dckr_pat_79tvhUvN5wcUiL-Xzw7dCjclBRA https://index.docker.io/v1/'
+                sh 'docker push anish-9999/software-prod-miniproj'
             }
+
         }
 
 //         stage('Run ansible for deployment') {
