@@ -20,36 +20,36 @@ pipeline {
             }
         }
 
-//         stage ('Build Docker Image') {
-//             steps {
-//                 sh 'docker build -t anish9999/calc_img .'
-//
-//             }
-//         }
         stage ('Build Docker Image') {
-                    steps {
-                        script{
-                            imageName = docker.build 'anish9999/calc_img'
-                        }
-                    }
-                }
+            steps {
+                sh 'docker build -t anish9999/calc_img .'
 
-//         stage ('Push Docker Image to DockerHub') {
-//             steps{
-// 		        sh 'docker login -u anish9999 -p dckr_pat_79tvhUvN5wcUiL-Xzw7dCjclBRA https://index.docker.io/v1/'
-//                 sh 'docker push anish9999/software-prod-miniproj'
-//             }
-//
-//         }
-        stage('Docker push image') {
-                    steps {
-                        script{
-                            docker.withRegistry('','docker_creds'){
-                            imageName.push()
-                            }
-                        }
-                    }
-                }
+            }
+        }
+//         stage ('Build Docker Image') {
+//                     steps {
+//                         script{
+//                             imageName = docker.build 'anish9999/calc_img:latest'
+//                         }
+//                     }
+//                 }
+
+        stage ('Push Docker Image to DockerHub') {
+            steps{
+		        sh 'docker login -u anish9999 -p dckr_pat_79tvhUvN5wcUiL-Xzw7dCjclBRA https://index.docker.io/v1/'
+                sh 'docker push anish9999/software-prod-miniproj'
+            }
+
+        }
+//         stage('Docker push image') {
+//                     steps {
+//                         script{
+//                             docker.withRegistry('','docker_creds'){
+//                             imageName.push()
+//                             }
+//                         }
+//                     }
+//                 }
 
 //          stage('Run ansible for deployment') {
 //              steps {
