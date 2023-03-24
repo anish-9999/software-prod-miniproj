@@ -1,4 +1,6 @@
 [M1MacBook]
 127.0.0.1 ansible_user=anishpotluri
 
+[M1MacBook:vars]
+ansible_connection=local
 
