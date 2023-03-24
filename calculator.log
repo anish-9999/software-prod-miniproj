@@ -4,3 +4,43 @@
 2023-03-21 13:45:59.322 [main] INFO  org.example.Calculator - [RESULT - POWER] - 16.0
 2023-03-21 13:46:06.253 [main] INFO  org.example.Calculator - [SQ ROOT] - 8.0
 2023-03-21 13:46:06.254 [main] INFO  org.example.Calculator - [RESULT - SQ ROOT] - 2.8284271247461903
+2023-03-24 22:22:33.219 [main] INFO  org.example.Calculator - [SQ ROOT] - 16.0
+2023-03-24 22:22:33.221 [main] INFO  org.example.Calculator - [RESULT - SQ ROOT] - 4.0
+2023-03-24 22:22:33.221 [main] INFO  org.example.Calculator - [SQ ROOT] - 1.0
+2023-03-24 22:22:33.221 [main] INFO  org.example.Calculator - [RESULT - SQ ROOT] - 1.0
+2023-03-24 22:22:33.221 [main] INFO  org.example.Calculator - [SQ ROOT] - 81.0
+2023-03-24 22:22:33.222 [main] INFO  org.example.Calculator - [RESULT - SQ ROOT] - 9.0
+2023-03-24 22:22:33.222 [main] INFO  org.example.Calculator - [SQ ROOT] - 36.0
+2023-03-24 22:22:33.222 [main] INFO  org.example.Calculator - [RESULT - SQ ROOT] - 6.0
+2023-03-24 22:22:33.222 [main] INFO  org.example.Calculator - [SQ ROOT] - 3.0
+2023-03-24 22:22:33.222 [main] INFO  org.example.Calculator - [RESULT - SQ ROOT] - 1.7320508075688772
+2023-03-24 22:22:33.222 [main] INFO  org.example.Calculator - [SQ ROOT] - 4.0
+2023-03-24 22:22:33.222 [main] INFO  org.example.Calculator - [RESULT - SQ ROOT] - 2.0
+2023-03-24 22:22:33.223 [main] INFO  org.example.Calculator - [SQ ROOT] - 81.0
+2023-03-24 22:22:33.223 [main] INFO  org.example.Calculator - [RESULT - SQ ROOT] - 9.0
+2023-03-24 22:22:33.223 [main] INFO  org.example.Calculator - [SQ ROOT] - 36.0
+2023-03-24 22:22:33.223 [main] INFO  org.example.Calculator - [RESULT - SQ ROOT] - 6.0
+2023-03-24 22:22:33.223 [main] INFO  org.example.Calculator - [NATURAL LOG] - 1.0
+2023-03-24 22:22:33.224 [main] INFO  org.example.Calculator - [RESULT - NATURAL LOG] - 0.0
+2023-03-24 22:22:33.224 [main] INFO  org.example.Calculator - [POWER - 2.0 RAISED TO] 3.0
+2023-03-24 22:22:33.224 [main] INFO  org.example.Calculator - [RESULT - POWER] - 8.0
+2023-03-24 22:22:33.224 [main] INFO  org.example.Calculator - [POWER - 3.0 RAISED TO] 3.0
+2023-03-24 22:22:33.224 [main] INFO  org.example.Calculator - [RESULT - POWER] - 27.0
+2023-03-24 22:22:33.225 [main] INFO  org.example.Calculator - [POWER - 4.0 RAISED TO] 3.0
+2023-03-24 22:22:33.225 [main] INFO  org.example.Calculator - [RESULT - POWER] - 64.0
+2023-03-24 22:22:33.225 [main] INFO  org.example.Calculator - [POWER - 5.0 RAISED TO] 3.0
+2023-03-24 22:22:33.225 [main] INFO  org.example.Calculator - [RESULT - POWER] - 125.0
+2023-03-24 22:22:33.225 [main] INFO  org.example.Calculator - [POWER - 2.0 RAISED TO] 3.0
+2023-03-24 22:22:33.225 [main] INFO  org.example.Calculator - [RESULT - POWER] - 8.0
+2023-03-24 22:22:33.225 [main] INFO  org.example.Calculator - [POWER - 1.0 RAISED TO] 3.0
+2023-03-24 22:22:33.225 [main] INFO  org.example.Calculator - [RESULT - POWER] - 1.0
+2023-03-24 22:22:33.226 [main] INFO  org.example.Calculator - [POWER - 3.0 RAISED TO] 4.0
+2023-03-24 22:22:33.226 [main] INFO  org.example.Calculator - [RESULT - POWER] - 81.0
+2023-03-24 22:22:33.226 [main] INFO  org.example.Calculator - [POWER - 4.0 RAISED TO] 3.0
+2023-03-24 22:22:33.226 [main] INFO  org.example.Calculator - [RESULT - POWER] - 64.0
+2023-03-24 22:22:33.226 [main] INFO  org.example.Calculator - [POWER - 5.0 RAISED TO] 2.0
+2023-03-24 22:22:33.226 [main] INFO  org.example.Calculator - [RESULT - POWER] - 25.0
+2023-03-24 22:22:33.226 [main] INFO  org.example.Calculator - [NATURAL LOG] - 2.4
+2023-03-24 22:22:33.226 [main] INFO  org.example.Calculator - [RESULT - NATURAL LOG] - 0.8754687373538999
+2023-03-24 22:22:33.227 [main] INFO  org.example.Calculator - [NATURAL LOG] - 2.1
+2023-03-24 22:22:33.227 [main] INFO  org.example.Calculator - [RESULT - NATURAL LOG] - 0.7419373447293773

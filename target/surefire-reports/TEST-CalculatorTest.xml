@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="CalculatorTest" time="0.503" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="CalculatorTest" time="0.505" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.3.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.17+10-LTS-269"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.17.jdk/Contents/Home/lib"/>
     <property name="gopherProxySet" value="false"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/anishpotluri/IdeaProjects/spe_mini_project_1"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/anishpotluri/spe_mini_proj/software-prod-miniproj"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/anishpotluri/IdeaProjects/spe_mini_project_1"/>
+    <property name="user.dir" value="/Users/anishpotluri/spe_mini_proj/software-prod-miniproj"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="11.0.17+10-LTS-269"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
@@ -47,7 +47,7 @@
     <property name="java.class.path" value="/Users/anishpotluri/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.8836.41/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Users/anishpotluri/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.8836.41/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.3 clean install"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.3 clean package"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.17.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -66,12 +66,12 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="CalculatorTest" name="factorialFalsePositive" time="0.502"/>
-  <testcase classname="CalculatorTest" name="squareRootTruePositive" time="0"/>
-  <testcase classname="CalculatorTest" name="squareRootFalsePositive" time="0"/>
+  <testcase classname="CalculatorTest" name="factorialFalsePositive" time="0.496"/>
+  <testcase classname="CalculatorTest" name="squareRootTruePositive" time="0.005"/>
+  <testcase classname="CalculatorTest" name="squareRootFalsePositive" time="0.001"/>
   <testcase classname="CalculatorTest" name="logTruePositive" time="0"/>
   <testcase classname="CalculatorTest" name="factorialTruePositive" time="0"/>
-  <testcase classname="CalculatorTest" name="powerFalsePositive" time="0"/>
-  <testcase classname="CalculatorTest" name="powerTruePositive" time="0"/>
+  <testcase classname="CalculatorTest" name="powerFalsePositive" time="0.001"/>
+  <testcase classname="CalculatorTest" name="powerTruePositive" time="0.001"/>
   <testcase classname="CalculatorTest" name="logFalsePositive" time="0.001"/>
 </testsuite>
