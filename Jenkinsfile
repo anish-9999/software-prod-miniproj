@@ -31,8 +31,6 @@ pipeline {
                         script{
                             imageName = docker.build 'anish-9999/calc_img'
                         }
-
-        
                     }
                 }
 
