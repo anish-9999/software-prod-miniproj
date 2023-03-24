@@ -20,12 +20,21 @@ pipeline {
             }
         }
 
+//         stage ('Build Docker Image') {
+//             steps {
+//                 sh 'docker build -t anish-9999/calc_img .'
+//
+//             }
+//         }
         stage ('Build Docker Image') {
-            steps {
-                sh 'docker build -t anish-9999/calc_img .'
+                    steps {
+                        script{
+                            imageName = docker.build 'anish-9999/calc_img'
+                        }
 
-            }
-        }
+        
+                    }
+                }
 
 //         stage ('Push Docker Image to DockerHub') {
 //             steps{
