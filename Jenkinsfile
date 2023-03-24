@@ -51,11 +51,11 @@ pipeline {
 //                     }
 //                 }
 
-//          stage('Run ansible for deployment') {
-//              steps {
-//                  ansiblePlaybook colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: './inventory', playbook: 'calc_deploy.yml'
-//              }
-//          }
+         stage('Run ansible for deployment') {
+             steps {
+                 ansiblePlaybook colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: './inventory', playbook: 'calc_deploy.yml'
+             }
+         }
 
     }
 }
