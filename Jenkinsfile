@@ -22,7 +22,7 @@ pipeline {
 
 //         stage ('Build Docker Image') {
 //             steps {
-//                 sh 'docker build -t anish-9999/calc_img .'
+//                 sh 'docker build -t anish9999/calc_img .'
 //
 //             }
 //         }
@@ -44,7 +44,7 @@ pipeline {
         stage('Docker push image') {
                     steps {
                         script{
-                            docker.withRegistry('https://registry.hub.docker.com','6fb85b61-c2a8-4ba4-a558-fd6e1d8c1930'){
+                            docker.withRegistry('','docker_creds'){
                             imageName.push()
                             }
                         }
