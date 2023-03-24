@@ -22,7 +22,7 @@ pipeline {
 
         stage ('Build Docker Image') {
             steps {
-                sh 'docker build -t anish-9999/calc_img'
+                sh 'docker build -t anish-9999/calc_img .'
 
             }
         }
