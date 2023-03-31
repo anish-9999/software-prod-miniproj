@@ -14,7 +14,7 @@ public class CalculatorTest {
         assertEquals("Finding factorial of a number for True Positive", 1, calculator.fact(1), DELTA);
         assertEquals("Finding factorial of a number for True Positive", 6, calculator.fact(3), DELTA);
         assertEquals("Finding factorial of a number for True Positive", 24, calculator.fact(4), DELTA);
-        assertEquals("Finding factorial of a number for True Positive", 1, calculator.fact(0), DELTA);
+        assertEquals("Finding factorial of a number for True Positive", 1, calculator.fact(-4), DELTA);
     }
 
     @Test
